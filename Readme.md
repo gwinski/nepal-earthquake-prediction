@@ -72,3 +72,16 @@ We compared two different approaches:
 * **Feature Selection:** Physical engineering features (Foundation, Roof) are far more predictive of damage than demographic features (Caste, Family Size).
 * **Leakage:** It is critical to remove post-event data (like reconstruction costs) to prevent the model from "cheating."
 * **Model Complexity:** A simple Decision Tree outperformed Logistic Regression because the relationship between materials and damage is non-linear (e.g., a heavy roof is fine *if* the foundation is strong).
+## 📈 Visualizations
+
+<p align="center">
+  <img src="images/feature_importance.png" width="80%" alt="Feature Importance">
+  <br>
+  <em>Figure 1: Foundation Type and Location were the strongest predictors of damage.</em>
+</p>
+
+<p align="center">
+  <img src="images/validation_curve.png" width="80%" alt="Validation Curve">
+  <br>
+  <em>Figure 2: Tuning the model depth to prevent overfitting.</em>
+</p>
